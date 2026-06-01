@@ -2,6 +2,7 @@ import requests
 import json
 import os
 import re
+from urllib.parse import urlparse, parse_qs
 
 ORGANIZATIONS = {
     "1001": {
@@ -16,6 +17,27 @@ ORGANIZATIONS = {
 
 def get_organizations():
     return ORGANIZATIONS
+
+def parse_bilibili_url(play_url):
+    if not play_url:
+        return None
+    
+    parsed = urlparse(f"http://{play_url}")
+    query_params = parse_qs(parsed.query)
+    
+    bvid = query_params.get('bvid', [None])[0]
+    p = query_params.get('p', [None])[0]
+    
+    if bvid:
+        if p and p.isdigit():
+            p = p.lstrip('0')
+            if not p:
+                p = '1'
+            return f"https://www.bilibili.com/video/{bvid}/?p={p}"
+        else:
+            return f"https://www.bilibili.com/video/{bvid}/"
+    
+    return None
 
 def fetch_subtitles(clip_id, keyword):
     url = f"https://api.zimu.live:7443/clips/{clip_id}/subtitles"
@@ -104,6 +126,7 @@ def fetch_search_results(keyword, org_ids, page=1, page_size=10):
                 for item in data["data"]["items"]:
                     item["org_name"] = org_info["name"]
                     item["org_id"] = org_id
+                    item["bilibili_url"] = parse_bilibili_url(item.get("play_url", ""))
                     item["subtitles"] = find_matching_subtitles(item.get("id", ""), keyword)
                 results.extend(data["data"]["items"])
         except requests.exceptions.RequestException as e:

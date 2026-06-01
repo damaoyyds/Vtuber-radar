@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 from search_api import fetch_search_results, get_organizations
+import webbrowser
 
 def format_time(ms):
     seconds = ms // 1000
@@ -8,6 +9,14 @@ def format_time(ms):
     seconds = seconds % 60
     milliseconds = ms % 1000
     return f"{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
+
+def on_link_click(event):
+    tag_ranges = result_text.tag_names(tk.CURRENT)
+    for tag in tag_ranges:
+        if tag.startswith("link_"):
+            url = tag.replace("link_", "", 1)
+            webbrowser.open_new(url)
+            return
 
 def on_search():
     keyword = entry_keyword.get().strip()
@@ -42,7 +51,7 @@ def on_search():
             title = item.get("title", "无标题")
             datetime = item.get("datetime", "无时间")
             author_name = item.get("author", {}).get("name", "未知作者")
-            play_url = item.get("play_url", "")
+            bilibili_url = item.get("bilibili_url", "")
             org_name = item.get("org_name", "")
             clip_id = item.get("id", "")
             subtitles = item.get("subtitles", [])
@@ -53,8 +62,13 @@ def on_search():
             result_text.insert(tk.END, f"  作者: {author_name}\n")
             result_text.insert(tk.END, f"  时间: {datetime}\n")
             result_text.insert(tk.END, f"  视频ID: {clip_id}\n")
-            if play_url:
-                result_text.insert(tk.END, f"  链接: {play_url}\n")
+            if bilibili_url:
+                url_tag = f"link_{bilibili_url}"
+                result_text.insert(tk.END, "  链接: ")
+                result_text.insert(tk.END, bilibili_url, url_tag)
+                result_text.tag_configure(url_tag, foreground="blue", underline=True)
+                result_text.tag_bind(url_tag, "<Button-1>", on_link_click)
+                result_text.insert(tk.END, "\n")
             
             if subtitles:
                 result_text.insert(tk.END, f"  匹配的字幕 ({len(subtitles)}条):\n")
@@ -98,7 +112,7 @@ def on_search():
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("搜索工具")
-    root.geometry("900x700")
+    root.geometry("1000x700")
 
     frame = ttk.Frame(root, padding="10")
     frame.pack(fill=tk.BOTH, expand=True)
@@ -128,9 +142,8 @@ if __name__ == "__main__":
         chk.pack(side=tk.LEFT, padx=10)
         org_vars[org_id] = var
 
-    result_text = scrolledtext.ScrolledText(frame, width=100, height=35, wrap=tk.WORD)
+    result_text = scrolledtext.ScrolledText(frame, width=110, height=35, wrap=tk.WORD)
     result_text.grid(row=2, column=0, columnspan=3, padx=5, pady=10, sticky=tk.W+tk.E+tk.N+tk.S)
-    
     result_text.tag_configure("pinyin_tag", foreground="red")
     result_text.tag_configure("text_tag", foreground="blue")
 
