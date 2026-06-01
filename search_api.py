@@ -13,7 +13,25 @@ ORGANIZATIONS = {
     "1015": {
         "name": "星瞳",
         "author_ids": "10031"
+    },
+    "1011": {
+        "name": "PSPlive",
+        "author_ids": "10098,10080,10079"
+    },
+    "1034": {
+        "name": "雪糕cheese",
+        "author_ids": "10078"
+    },
+    "1045": {
+        "name": "黎歌Neeko",
+        "author_ids": "10108"
+    },
+    
+    "1032": {
+        "name": "泽音Melody",
+        "author_ids": "10085"
     }
+    
 }
 
 def get_organizations():
