@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 from search_api import fetch_search_results, get_organizations
 import webbrowser
+from datetime import datetime, timedelta
+from tkcalendar import DateEntry
 
 def format_time(ms):
     seconds = ms // 1000
@@ -29,12 +31,16 @@ def on_search():
         messagebox.showwarning("提示", "请至少选择一个组织")
         return
     
+    start_date = entry_start_date.get_date().strftime("%Y-%m-%d")
+    end_date = entry_end_date.get_date().strftime("%Y-%m-%d")
+    
     result_text.delete(1.0, tk.END)
     result_text.insert(tk.END, f"正在搜索关键词: {keyword}...\n")
-    result_text.insert(tk.END, f"选择的组织: {', '.join([get_organizations()[org_id]['name'] for org_id in selected_orgs])}\n\n")
+    result_text.insert(tk.END, f"选择的组织: {', '.join([get_organizations()[org_id]['name'] for org_id in selected_orgs])}\n")
+    result_text.insert(tk.END, f"时间范围: {start_date} ~ {end_date}\n\n")
     root.update()
     
-    results = fetch_search_results(keyword, selected_orgs)
+    results = fetch_search_results(keyword, selected_orgs, start_date=start_date if start_date else None, end_date=end_date if end_date else None)
     
     if "error" in results:
         result_text.insert(tk.END, f"搜索失败: {results['error']}")
@@ -142,12 +148,24 @@ if __name__ == "__main__":
         chk.pack(side=tk.LEFT, padx=10)
         org_vars[org_id] = var
 
+    label_start_date = ttk.Label(frame, text="起始日期:")
+    label_start_date.grid(row=2, column=0, sticky=tk.W, padx=5, pady=5)
+    entry_start_date = DateEntry(frame, width=15, date_pattern='yyyy-MM-dd', mindate=None, maxdate=datetime.now())
+    entry_start_date.set_date(datetime.now() - timedelta(days=30))
+    entry_start_date.grid(row=2, column=1, sticky=tk.W, padx=5, pady=5)
+
+    label_end_date = ttk.Label(frame, text="结束日期:")
+    label_end_date.grid(row=2, column=2, sticky=tk.W, padx=5, pady=5)
+    entry_end_date = DateEntry(frame, width=15, date_pattern='yyyy-MM-dd', mindate=None, maxdate=datetime.now())
+    entry_end_date.set_date(datetime.now())
+    entry_end_date.grid(row=2, column=3, sticky=tk.W, padx=5, pady=5)
+
     result_text = scrolledtext.ScrolledText(frame, width=110, height=35, wrap=tk.WORD)
-    result_text.grid(row=2, column=0, columnspan=3, padx=5, pady=10, sticky=tk.W+tk.E+tk.N+tk.S)
+    result_text.grid(row=3, column=0, columnspan=4, padx=5, pady=10, sticky=tk.W+tk.E+tk.N+tk.S)
     result_text.tag_configure("pinyin_tag", foreground="red")
     result_text.tag_configure("text_tag", foreground="blue")
 
     frame.columnconfigure(1, weight=1)
-    frame.rowconfigure(2, weight=1)
+    frame.rowconfigure(3, weight=1)
 
     root.mainloop()

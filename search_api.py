@@ -3,6 +3,7 @@ import json
 import os
 import re
 from urllib.parse import urlparse, parse_qs
+from datetime import datetime, timedelta
 
 ORGANIZATIONS = {
     "1001": {
@@ -92,9 +93,15 @@ def find_matching_subtitles(clip_id, keyword):
     
     return matches
 
-def fetch_search_results(keyword, org_ids, page=1, page_size=10):
+def fetch_search_results(keyword, org_ids, page=1, page_size=10, start_date=None, end_date=None):
     if not org_ids:
         return {"error": "请至少选择一个组织"}
+    
+    today = datetime.now()
+    if not end_date:
+        end_date = today.strftime("%Y-%m-%d")
+    if not start_date:
+        start_date = (today - timedelta(days=30)).strftime("%Y-%m-%d")
     
     results = []
     for org_id in org_ids:
@@ -109,8 +116,8 @@ def fetch_search_results(keyword, org_ids, page=1, page_size=10):
             "page_size": page_size,
             "author_ids": org_info["author_ids"],
             "keyword": keyword,
-            "start_date": "2026-03-01",
-            "end_date": "2026-06-01"
+            "start_date": start_date,
+            "end_date": end_date
         }
         
         headers = {

@@ -2,13 +2,186 @@
   "data": {
     "items": [
       {
-        "id": 143317,
+        "id": 143394,
+        "author_id": 10030,
+        "title": "【弹幕版】软蛋来咯~",
+        "datetime": "2026-05-27 00:00:00",
+        "cover": "i2.hdslb.com/bfs/archive/b1c307d791863252dbbd8c1167d21b6d8ec99f31.jpg",
+        "type": 1,
+        "play_url": "player.bilibili.com/player.html?bvid=BV19NG16SEdf&p=01",
+        "channel": 0,
+        "rate": 0,
+        "author": {
+          "id": 10030,
+          "organization_id": 1001,
+          "uid": 1217754423,
+          "name": "又一充电中",
+          "avatar": "i0.hdslb.com/bfs/face/cb374020a560a9c16d47a57aba431d96e839e1f5.jpg",
+          "organization": {
+            "id": 1001,
+            "name": "四禧丸子",
+            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
+            "sort": 10
+          }
+        },
+        "org_name": "四禧丸子",
+        "org_id": "1001",
+        "bilibili_url": "https://www.bilibili.com/video/BV19NG16SEdf/?p=1",
+        "subtitles": [
+          {
+            "clip_id": 143394,
+            "start": 2723810,
+            "end": 2727105,
+            "marked_content": "你早上你<text>老公</text>已经被我杀了",
+            "clean_content": "你早上你老公已经被我杀了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 2737470,
+            "end": 2739510,
+            "marked_content": "<text>老公</text>人格已经被我杀死了",
+            "clean_content": "老公人格已经被我杀死了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 2751260,
+            "end": 2755120,
+            "marked_content": "谢谢医用的S1<text>老公</text>",
+            "clean_content": "谢谢医用的S1老公",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 2770800,
+            "end": 2775750,
+            "marked_content": "让你明白<text>老公</text>已经没了",
+            "clean_content": "让你明白老公已经没了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3012019,
+            "end": 3015039,
+            "marked_content": "<text>老公</text>组还是很有一战之力的",
+            "clean_content": "老公组还是很有一战之力的",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3015739,
+            "end": 3017439,
+            "marked_content": "<text>老公</text>在<text>老公</text>组",
+            "clean_content": "老公在老公组",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3020530,
+            "end": 3022550,
+            "marked_content": "现在<text>老公</text>已经没了",
+            "clean_content": "现在老公已经没了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3054660,
+            "end": 3057620,
+            "marked_content": "<text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text>",
+            "clean_content": "老公老公老公老公老公老公老公老公老公老公",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3075710,
+            "end": 3077290,
+            "marked_content": "<text>老公</text>已经没啦",
+            "clean_content": "老公已经没啦",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3080330,
+            "end": 3081070,
+            "marked_content": "<text>老公</text>好帅",
+            "clean_content": "老公好帅",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3081070,
+            "end": 3083030,
+            "marked_content": "唉唉唉现在不是<text>老公</text>了",
+            "clean_content": "唉唉唉现在不是老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3086950,
+            "end": 3088910,
+            "marked_content": "谢谢<text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text><text>老公</text>",
+            "clean_content": "谢谢老公老公老公老公老公老公",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 3090030,
+            "end": 3093340,
+            "marked_content": "我去太多人喜欢<text>老公</text>了",
+            "clean_content": "我去太多人喜欢老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 4057279,
+            "end": 4057919,
+            "marked_content": "<text>老公</text>没了",
+            "clean_content": "老公没了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 4186880,
+            "end": 4190500,
+            "marked_content": "儿子算不算占了所有你<text>老公</text>的人的便宜",
+            "clean_content": "儿子算不算占了所有你老公的人的便宜",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143394,
+            "start": 4194739,
+            "end": 4196579,
+            "marked_content": "那些人喊我<text>老公</text>",
+            "clean_content": "那些人喊我老公",
+            "pinyin": "",
+            "text": "老公"
+          }
+        ]
+      },
+      {
+        "id": 143316,
         "author_id": 10029,
         "title": "【弹幕版】吃播！！看看神秘的X调查！！",
         "datetime": "2026-05-25 00:00:00",
         "cover": "i2.hdslb.com/bfs/archive/f967fcd14a7acecac1fdaa8a073e0811c1abe7bd.jpg",
         "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1k3GZ6PEuT&p=02",
+        "play_url": "player.bilibili.com/player.html?bvid=BV1k3GZ6PEuT&p=01",
         "channel": 0,
         "rate": 0,
         "author": {
@@ -26,97 +199,63 @@
         },
         "org_name": "四禧丸子",
         "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1k3GZ6PEuT/?p=2",
+        "bilibili_url": "https://www.bilibili.com/video/BV1k3GZ6PEuT/?p=1",
         "subtitles": [
           {
-            "clip_id": 143317,
-            "start": 128110,
-            "end": 129949,
-            "marked_content": "我还能吃八个<pinyin>手枪腿</pinyin>",
-            "clean_content": "我还能吃八个手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
+            "clip_id": 143316,
+            "start": 6616369,
+            "end": 6619089,
+            "marked_content": "我怎么感觉她<text>老公</text>和合伙人合起来",
+            "clean_content": "我怎么感觉她老公和合伙人合起来",
+            "pinyin": "",
+            "text": "老公"
+          }
+        ]
+      },
+      {
+        "id": 143315,
+        "author_id": 10028,
+        "title": "【弹幕版】真聪明",
+        "datetime": "2026-05-25 00:00:00",
+        "cover": "i0.hdslb.com/bfs/archive/bc12ed0a9d9ec6762dd2f127972fd0870dc4336f.jpg",
+        "type": 1,
+        "play_url": "player.bilibili.com/player.html?bvid=BV1W2Gd6aEwE&p=02",
+        "channel": 0,
+        "rate": 0,
+        "author": {
+          "id": 10028,
+          "organization_id": 1001,
+          "uid": 1878154667,
+          "name": "沐霂是MUMU呀",
+          "avatar": "i0.hdslb.com/bfs/baselabs/f9da29f9039d2afe1802d170e3b4d0f838073f2f.png",
+          "organization": {
+            "id": 1001,
+            "name": "四禧丸子",
+            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
+            "sort": 10
+          }
+        },
+        "org_name": "四禧丸子",
+        "org_id": "1001",
+        "bilibili_url": "https://www.bilibili.com/video/BV1W2Gd6aEwE/?p=2",
+        "subtitles": [
+          {
+            "clip_id": 143315,
+            "start": 6414430,
+            "end": 6415850,
+            "marked_content": "<text>老公</text><text>老公</text>虽然我的已经过了",
+            "clean_content": "老公老公虽然我的已经过了",
+            "pinyin": "",
+            "text": "老公"
           },
           {
-            "clip_id": 143317,
-            "start": 141769,
-            "end": 143369,
-            "marked_content": "<pinyin>手枪腿</pinyin>好",
-            "clean_content": "手枪腿好",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 143369,
-            "end": 144609,
-            "marked_content": "那我吃个<pinyin>手枪腿</pinyin>",
-            "clean_content": "那我吃个手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 147089,
-            "end": 150519,
-            "marked_content": "我网上到大家都很喜欢吃<pinyin>手枪腿</pinyin>吗",
-            "clean_content": "我网上到大家都很喜欢吃手枪腿吗",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 155119,
-            "end": 156739,
-            "marked_content": "大家都爱吃<pinyin>手枪腿</pinyin>",
-            "clean_content": "大家都爱吃手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 212070,
-            "end": 213790,
-            "marked_content": "不是还有个<pinyin>手枪腿</pinyin>吗",
-            "clean_content": "不是还有个手枪腿吗",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 213790,
-            "end": 215430,
-            "marked_content": "<pinyin>手枪腿</pinyin>第一个就吃了",
-            "clean_content": "手枪腿第一个就吃了",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 246160,
-            "end": 248680,
-            "marked_content": "谢谢菲儿的<pinyin>手枪腿</pinyin>",
-            "clean_content": "谢谢菲儿的手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 250660,
-            "end": 252540,
-            "marked_content": "我还能吃八个<pinyin>手枪腿</pinyin>",
-            "clean_content": "我还能吃八个手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143317,
-            "start": 310380,
-            "end": 313870,
-            "marked_content": "我在这吃了两个<pinyin>手枪腿</pinyin>吧",
-            "clean_content": "我在这吃了两个手枪腿吧",
-            "pinyin": "手枪腿",
-            "text": ""
+            "clip_id": 143315,
+            "start": 6415850,
+            "end": 6417730,
+            "marked_content": "但是还想听甜甜<text>老公</text>一边摸啊",
+            "clean_content": "但是还想听甜甜老公一边摸啊",
+            "pinyin": "",
+            "text": "老公"
           }
         ]
       },
@@ -149,49 +288,31 @@
         "subtitles": [
           {
             "clip_id": 143314,
-            "start": 2329380,
-            "end": 2330760,
-            "marked_content": "<pinyin>手枪腿</pinyin>若干",
-            "clean_content": "手枪腿若干",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143314,
-            "start": 2334480,
-            "end": 2335440,
-            "marked_content": "如果<pinyin>手枪腿</pinyin>不够",
-            "clean_content": "如果手枪腿不够",
-            "pinyin": "手枪腿",
-            "text": ""
-          },
-          {
-            "clip_id": 143314,
-            "start": 5304750,
-            "end": 5309380,
-            "marked_content": "不要想的每顿五组<pinyin>手枪腿</pinyin>加练谁啊",
-            "clean_content": "不要想的每顿五组手枪腿加练谁啊",
-            "pinyin": "手枪腿",
-            "text": ""
+            "start": 3700260,
+            "end": 3701060,
+            "marked_content": "还有<text>老公</text>组",
+            "clean_content": "还有老公组",
+            "pinyin": "",
+            "text": "老公"
           }
         ]
       },
       {
-        "id": 143145,
-        "author_id": 10029,
-        "title": "【弹幕版】养个宝贝女儿！梦幻魔法公主~",
-        "datetime": "2026-05-22 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/f967fcd14a7acecac1fdaa8a073e0811c1abe7bd.jpg",
+        "id": 143270,
+        "author_id": 10030,
+        "title": "【弹幕版】酥酥又水友会 下半场",
+        "datetime": "2026-05-24 00:00:00",
+        "cover": "i2.hdslb.com/bfs/archive/b1c307d791863252dbbd8c1167d21b6d8ec99f31.jpg",
         "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1FCGb6SEeL&p=03",
+        "play_url": "player.bilibili.com/player.html?bvid=BV1dEGH6XEeB&p=03",
         "channel": 0,
         "rate": 0,
         "author": {
-          "id": 10029,
+          "id": 10030,
           "organization_id": 1001,
-          "uid": 1900141897,
-          "name": "梨安不迷路",
-          "avatar": "i0.hdslb.com/bfs/face/67c6c6584f6e8024096d0cc6c3ccc92e27a28c58.jpg",
+          "uid": 1217754423,
+          "name": "又一充电中",
+          "avatar": "i0.hdslb.com/bfs/face/cb374020a560a9c16d47a57aba431d96e839e1f5.jpg",
           "organization": {
             "id": 1001,
             "name": "四禧丸子",
@@ -201,34 +322,562 @@
         },
         "org_name": "四禧丸子",
         "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1FCGb6SEeL/?p=3",
+        "bilibili_url": "https://www.bilibili.com/video/BV1dEGH6XEeB/?p=3",
         "subtitles": [
           {
-            "clip_id": 143145,
-            "start": 844920,
-            "end": 848080,
-            "marked_content": "谢谢士多<pinyin>手枪腿</pinyin>的舰长",
-            "clean_content": "谢谢士多手枪腿的舰长",
-            "pinyin": "手枪腿",
-            "text": ""
+            "clip_id": 143270,
+            "start": 541800,
+            "end": 543920,
+            "marked_content": "这得分到<text>老公</text>组了",
+            "clean_content": "这得分到老公组了",
+            "pinyin": "",
+            "text": "老公"
           },
           {
-            "clip_id": 143145,
-            "start": 5489610,
-            "end": 5491630,
-            "marked_content": "我不是说的<pinyin>手枪腿</pinyin>啊",
-            "clean_content": "我不是说的手枪腿啊",
-            "pinyin": "手枪腿",
-            "text": ""
+            "clip_id": 143270,
+            "start": 543920,
+            "end": 546960,
+            "marked_content": "我看到已经有人叫<text>老公</text>了",
+            "clean_content": "我看到已经有人叫老公了",
+            "pinyin": "",
+            "text": "老公"
           },
           {
-            "clip_id": 143145,
-            "start": 5503110,
-            "end": 5504310,
-            "marked_content": "不是<pinyin>手枪腿</pinyin>",
-            "clean_content": "不是手枪腿",
-            "pinyin": "手枪腿",
-            "text": ""
+            "clip_id": 143270,
+            "start": 551600,
+            "end": 554550,
+            "marked_content": "这得分到<text>老公</text>组了啊",
+            "clean_content": "这得分到老公组了啊",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 565669,
+            "end": 570069,
+            "marked_content": "就冲他这么深情给他分到这个<text>老公</text>主",
+            "clean_content": "就冲他这么深情给他分到这个老公主",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 573709,
+            "end": 575509,
+            "marked_content": "刚刚有弹幕在叫<text>老公</text>了",
+            "clean_content": "刚刚有弹幕在叫老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 1150780,
+            "end": 1154570,
+            "marked_content": "<text>老公</text>组的已经叫上了",
+            "clean_content": "老公组的已经叫上了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 1158590,
+            "end": 1162070,
+            "marked_content": "现在这个<text>老公</text>敢比幼一强点儿",
+            "clean_content": "现在这个老公敢比幼一强点儿",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 1175370,
+            "end": 1178150,
+            "marked_content": "连<text>老公</text>感排名都下降了",
+            "clean_content": "连老公感排名都下降了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 1186920,
+            "end": 1188800,
+            "marked_content": "还我<text>老公</text>",
+            "clean_content": "还我老公",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 4040720,
+            "end": 4044280,
+            "marked_content": "有感觉的主播在这个<text>老公</text>组站站不稳",
+            "clean_content": "有感觉的主播在这个老公组站站不稳",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 4333440,
+            "end": 4336520,
+            "marked_content": "我看了这个分到这个<text>老公</text>组是吧",
+            "clean_content": "我看了这个分到这个老公组是吧",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 4336520,
+            "end": 4340200,
+            "marked_content": "我知道的弹幕已经一直在叫<text>老公</text>了",
+            "clean_content": "我知道的弹幕已经一直在叫老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 4340200,
+            "end": 4345060,
+            "marked_content": "说哎呀<text>老公</text><text>老公</text><text>老公</text><text>老公</text>搁搁这狂叫啊狂叫啊",
+            "clean_content": "说哎呀老公老公老公老公搁搁这狂叫啊狂叫啊",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 5604809,
+            "end": 5606609,
+            "marked_content": "<text>老公</text>组4.5位",
+            "clean_content": "老公组4.5位",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 5606609,
+            "end": 5607849,
+            "marked_content": "这个<text>老公</text>组加晚了",
+            "clean_content": "这个老公组加晚了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 5607849,
+            "end": 5609929,
+            "marked_content": "不然这个<text>老公</text>主也是和明星组",
+            "clean_content": "不然这个老公主也是和明星组",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 5660390,
+            "end": 5662950,
+            "marked_content": "<text>老公</text>组老婆组同分直接结婚",
+            "clean_content": "老公组老婆组同分直接结婚",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143270,
+            "start": 5666800,
+            "end": 5668800,
+            "marked_content": "<text>老公</text>组也是有人要的",
+            "clean_content": "老公组也是有人要的",
+            "pinyin": "",
+            "text": "老公"
+          }
+        ]
+      },
+      {
+        "id": 143242,
+        "author_id": 10030,
+        "title": "【弹幕版】酥酥又水友会 下半场",
+        "datetime": "2026-05-24 00:00:00",
+        "cover": "i2.hdslb.com/bfs/archive/b1c307d791863252dbbd8c1167d21b6d8ec99f31.jpg",
+        "type": 1,
+        "play_url": "player.bilibili.com/player.html?bvid=BV1dEGH6XEeB&p=02",
+        "channel": 0,
+        "rate": 0,
+        "author": {
+          "id": 10030,
+          "organization_id": 1001,
+          "uid": 1217754423,
+          "name": "又一充电中",
+          "avatar": "i0.hdslb.com/bfs/face/cb374020a560a9c16d47a57aba431d96e839e1f5.jpg",
+          "organization": {
+            "id": 1001,
+            "name": "四禧丸子",
+            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
+            "sort": 10
+          }
+        },
+        "org_name": "四禧丸子",
+        "org_id": "1001",
+        "bilibili_url": "https://www.bilibili.com/video/BV1dEGH6XEeB/?p=2",
+        "subtitles": [
+          {
+            "clip_id": 143242,
+            "start": 1141870,
+            "end": 1144230,
+            "marked_content": "我没有一开始就开一个<text>老公</text>组",
+            "clean_content": "我没有一开始就开一个老公组",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1151210,
+            "end": 1152850,
+            "marked_content": "又找到新<text>老公</text>了",
+            "clean_content": "又找到新老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1157710,
+            "end": 1160270,
+            "marked_content": "上来就是又有人开始叫<text>老公</text>了",
+            "clean_content": "上来就是又有人开始叫老公了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1162420,
+            "end": 1164700,
+            "marked_content": "这这真是我<text>老公</text>哎",
+            "clean_content": "这这真是我老公哎",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1164700,
+            "end": 1169940,
+            "marked_content": "我去真是你<text>老公</text>真的假的吐",
+            "clean_content": "我去真是你老公真的假的吐",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1190740,
+            "end": 1192780,
+            "marked_content": "这个是太多人的<text>老公</text>了啊",
+            "clean_content": "这个是太多人的老公了啊",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1198610,
+            "end": 1200850,
+            "marked_content": "现在开一个<text>老公</text>组是吧",
+            "clean_content": "现在开一个老公组是吧",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1209540,
+            "end": 1212180,
+            "marked_content": "这下半场要专门开一个这个<text>老公</text>组呢",
+            "clean_content": "这下半场要专门开一个这个老公组呢",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1220330,
+            "end": 1222390,
+            "marked_content": "咱们来开个<text>老公</text>主来制衡一下",
+            "clean_content": "咱们来开个老公主来制衡一下",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1230290,
+            "end": 1232670,
+            "marked_content": "现在<text>老公</text>组有一个一了",
+            "clean_content": "现在老公组有一个一了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1259930,
+            "end": 1261790,
+            "marked_content": "前面的<text>老公</text>怎么办",
+            "clean_content": "前面的老公怎么办",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1261790,
+            "end": 1264310,
+            "marked_content": "前面<text>老公</text>去当明星了",
+            "clean_content": "前面老公去当明星了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1591600,
+            "end": 1593720,
+            "marked_content": "<text>老公</text>组的零",
+            "clean_content": "老公组的零",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1601870,
+            "end": 1603550,
+            "marked_content": "后面还有<text>老公</text>呢",
+            "clean_content": "后面还有老公呢",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 1603550,
+            "end": 1604990,
+            "marked_content": "后还有你们的<text>老公</text>呢",
+            "clean_content": "后还有你们的老公呢",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 2180390,
+            "end": 2184740,
+            "marked_content": "<text>老公</text>组明星组都有啊",
+            "clean_content": "老公组明星组都有啊",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 2184740,
+            "end": 2187100,
+            "marked_content": "连<text>老公</text>组和明星组都在抢",
+            "clean_content": "连老公组和明星组都在抢",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 2217310,
+            "end": 2220370,
+            "marked_content": "然后这个<text>老公</text>组0.5对吧",
+            "clean_content": "然后这个老公组0.5对吧",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 2895029,
+            "end": 2899240,
+            "marked_content": "感觉可以送到这个明星组或者是<text>老公</text>组",
+            "clean_content": "感觉可以送到这个明星组或者是老公组",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 4838290,
+            "end": 4840070,
+            "marked_content": "我还想给他分到<text>老公</text>组呢",
+            "clean_content": "我还想给他分到老公组呢",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 5248990,
+            "end": 5252270,
+            "marked_content": "我的几位<text>老公</text>在直播间走丢了",
+            "clean_content": "我的几位老公在直播间走丢了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 5252270,
+            "end": 5255990,
+            "marked_content": "又神能把我<text>老公</text>们的联系方式还给我吗",
+            "clean_content": "又神能把我老公们的联系方式还给我吗",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 5267010,
+            "end": 5268710,
+            "marked_content": "几位<text>老公</text>",
+            "clean_content": "几位老公",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 5277940,
+            "end": 5280680,
+            "marked_content": "<text>老公</text><text>老公</text><text>老公</text>是你<text>老公</text>吗",
+            "clean_content": "老公老公老公是你老公吗",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143242,
+            "start": 5287300,
+            "end": 5288710,
+            "marked_content": "是你<text>老公</text>吗",
+            "clean_content": "是你老公吗",
+            "pinyin": "",
+            "text": "老公"
+          }
+        ]
+      },
+      {
+        "id": 143239,
+        "author_id": 1,
+        "title": "【弹幕版】一起你画我猜",
+        "datetime": "2026-05-24 00:00:00",
+        "cover": "i2.hdslb.com/bfs/archive/63af2db6d3d2eba825f78cf4f2d1a1ea0f4448ce.jpg",
+        "type": 1,
+        "play_url": "player.bilibili.com/player.html?bvid=BV1KQGE6eERh&p=01",
+        "channel": 0,
+        "rate": 0,
+        "author": {
+          "id": 1,
+          "organization_id": 1001,
+          "uid": 1660392980,
+          "name": "恬豆发芽了",
+          "avatar": "i0.hdslb.com/bfs/baselabs/cc0884770e333879d09a911b8be38a4b878c19de.png",
+          "organization": {
+            "id": 1001,
+            "name": "四禧丸子",
+            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
+            "sort": 10
+          }
+        },
+        "org_name": "四禧丸子",
+        "org_id": "1001",
+        "bilibili_url": "https://www.bilibili.com/video/BV1KQGE6eERh/?p=1",
+        "subtitles": [
+          {
+            "clip_id": 143239,
+            "start": 4823860,
+            "end": 4826820,
+            "marked_content": "该小组<text>老公</text>男孩正在骑这辆自行车",
+            "clean_content": "该小组老公男孩正在骑这辆自行车",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 4887460,
+            "end": 4891000,
+            "marked_content": "那你是不是你<text>老公</text>跟抓头晕有什么关系呀",
+            "clean_content": "那你是不是你老公跟抓头晕有什么关系呀",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 4891000,
+            "end": 4892640,
+            "marked_content": "我<text>老公</text>撞到关你屁事啊",
+            "clean_content": "我老公撞到关你屁事啊",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 4911220,
+            "end": 4912660,
+            "marked_content": "那我<text>老公</text>已经跟他道歉",
+            "clean_content": "那我老公已经跟他道歉",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 4994400,
+            "end": 4996600,
+            "marked_content": "她<text>老公</text>说几千块钱又不是大不了的事",
+            "clean_content": "她老公说几千块钱又不是大不了的事",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 4997400,
+            "end": 4999820,
+            "marked_content": "她<text>老公</text>肯定也是刀造了孽了",
+            "clean_content": "她老公肯定也是刀造了孽了",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143239,
+            "start": 6588120,
+            "end": 6589300,
+            "marked_content": "我妈有两个<text>老公</text>",
+            "clean_content": "我妈有两个老公",
+            "pinyin": "",
+            "text": "老公"
+          }
+        ]
+      },
+      {
+        "id": 143046,
+        "author_id": 10030,
+        "title": "【弹幕版】微甜歌回～",
+        "datetime": "2026-05-21 00:00:00",
+        "cover": "i2.hdslb.com/bfs/archive/b1c307d791863252dbbd8c1167d21b6d8ec99f31.jpg",
+        "type": 1,
+        "play_url": "player.bilibili.com/player.html?bvid=BV1oGLb6DEQc&p=01",
+        "channel": 0,
+        "rate": 0,
+        "author": {
+          "id": 10030,
+          "organization_id": 1001,
+          "uid": 1217754423,
+          "name": "又一充电中",
+          "avatar": "i0.hdslb.com/bfs/face/cb374020a560a9c16d47a57aba431d96e839e1f5.jpg",
+          "organization": {
+            "id": 1001,
+            "name": "四禧丸子",
+            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
+            "sort": 10
+          }
+        },
+        "org_name": "四禧丸子",
+        "org_id": "1001",
+        "bilibili_url": "https://www.bilibili.com/video/BV1oGLb6DEQc/?p=1",
+        "subtitles": [
+          {
+            "clip_id": 143046,
+            "start": 5317880,
+            "end": 5319860,
+            "marked_content": "你们不是想找<text>老公</text>吗",
+            "clean_content": "你们不是想找老公吗",
+            "pinyin": "",
+            "text": "老公"
+          },
+          {
+            "clip_id": 143046,
+            "start": 5772910,
+            "end": 5775130,
+            "marked_content": "52<pinyin>1找</pinyin><text>老公</text>陪我吃KFC",
+            "clean_content": "521找老公陪我吃KFC",
+            "pinyin": "1找",
+            "text": "老公"
           }
         ]
       },
@@ -261,12 +910,12 @@
         "subtitles": [
           {
             "clip_id": 143006,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
+            "start": 4052789,
+            "end": 4058520,
+            "marked_content": "哈哈哈哈哎呀<text>老公</text>啊嘞还要再点",
+            "clean_content": "哈哈哈哈哎呀老公啊嘞还要再点",
+            "pinyin": "",
+            "text": "老公"
           }
         ]
       },
@@ -299,202 +948,12 @@
         "subtitles": [
           {
             "clip_id": 143004,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
-          }
-        ]
-      },
-      {
-        "id": 143002,
-        "author_id": 10028,
-        "title": "【弹幕版】520KTV！！",
-        "datetime": "2026-05-20 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/9e8765d386e24cf88b879356ab3ba01e2187b7a7.jpg",
-        "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1wrLS6pEfL&p=05",
-        "channel": 0,
-        "rate": 0,
-        "author": {
-          "id": 10028,
-          "organization_id": 1001,
-          "uid": 1878154667,
-          "name": "沐霂是MUMU呀",
-          "avatar": "i0.hdslb.com/bfs/baselabs/f9da29f9039d2afe1802d170e3b4d0f838073f2f.png",
-          "organization": {
-            "id": 1001,
-            "name": "四禧丸子",
-            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
-            "sort": 10
-          }
-        },
-        "org_name": "四禧丸子",
-        "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1wrLS6pEfL/?p=5",
-        "subtitles": [
-          {
-            "clip_id": 143002,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
-          }
-        ]
-      },
-      {
-        "id": 143000,
-        "author_id": 1,
-        "title": "【弹幕版】520KTV！！",
-        "datetime": "2026-05-20 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/9e8765d386e24cf88b879356ab3ba01e2187b7a7.jpg",
-        "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1wrLS6pEfL&p=05",
-        "channel": 0,
-        "rate": 0,
-        "author": {
-          "id": 1,
-          "organization_id": 1001,
-          "uid": 1660392980,
-          "name": "恬豆发芽了",
-          "avatar": "i0.hdslb.com/bfs/baselabs/cc0884770e333879d09a911b8be38a4b878c19de.png",
-          "organization": {
-            "id": 1001,
-            "name": "四禧丸子",
-            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
-            "sort": 10
-          }
-        },
-        "org_name": "四禧丸子",
-        "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1wrLS6pEfL/?p=5",
-        "subtitles": [
-          {
-            "clip_id": 143000,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
-          }
-        ]
-      },
-      {
-        "id": 142969,
-        "author_id": 10030,
-        "title": "【弹幕版】520KTV！！",
-        "datetime": "2026-05-20 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/9e8765d386e24cf88b879356ab3ba01e2187b7a7.jpg",
-        "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1wrLS6pEfL&p=03",
-        "channel": 0,
-        "rate": 0,
-        "author": {
-          "id": 10030,
-          "organization_id": 1001,
-          "uid": 1217754423,
-          "name": "又一充电中",
-          "avatar": "i0.hdslb.com/bfs/face/cb374020a560a9c16d47a57aba431d96e839e1f5.jpg",
-          "organization": {
-            "id": 1001,
-            "name": "四禧丸子",
-            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
-            "sort": 10
-          }
-        },
-        "org_name": "四禧丸子",
-        "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1wrLS6pEfL/?p=3",
-        "subtitles": [
-          {
-            "clip_id": 142969,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
-          }
-        ]
-      },
-      {
-        "id": 142966,
-        "author_id": 10029,
-        "title": "【弹幕版】520KTV！！",
-        "datetime": "2026-05-20 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/9e8765d386e24cf88b879356ab3ba01e2187b7a7.jpg",
-        "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1wrLS6pEfL&p=03",
-        "channel": 0,
-        "rate": 0,
-        "author": {
-          "id": 10029,
-          "organization_id": 1001,
-          "uid": 1900141897,
-          "name": "梨安不迷路",
-          "avatar": "i0.hdslb.com/bfs/face/67c6c6584f6e8024096d0cc6c3ccc92e27a28c58.jpg",
-          "organization": {
-            "id": 1001,
-            "name": "四禧丸子",
-            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
-            "sort": 10
-          }
-        },
-        "org_name": "四禧丸子",
-        "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1wrLS6pEfL/?p=3",
-        "subtitles": [
-          {
-            "clip_id": 142966,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
-          }
-        ]
-      },
-      {
-        "id": 142963,
-        "author_id": 10028,
-        "title": "【弹幕版】520KTV！！",
-        "datetime": "2026-05-20 00:00:00",
-        "cover": "i2.hdslb.com/bfs/archive/9e8765d386e24cf88b879356ab3ba01e2187b7a7.jpg",
-        "type": 1,
-        "play_url": "player.bilibili.com/player.html?bvid=BV1wrLS6pEfL&p=03",
-        "channel": 0,
-        "rate": 0,
-        "author": {
-          "id": 10028,
-          "organization_id": 1001,
-          "uid": 1878154667,
-          "name": "沐霂是MUMU呀",
-          "avatar": "i0.hdslb.com/bfs/baselabs/f9da29f9039d2afe1802d170e3b4d0f838073f2f.png",
-          "organization": {
-            "id": 1001,
-            "name": "四禧丸子",
-            "avatar": "i2.hdslb.com/bfs/face/aac124657e877e84b7b1c643d465fd992f057f17.jpg",
-            "sort": 10
-          }
-        },
-        "org_name": "四禧丸子",
-        "org_id": "1001",
-        "bilibili_url": "https://www.bilibili.com/video/BV1wrLS6pEfL/?p=3",
-        "subtitles": [
-          {
-            "clip_id": 142963,
-            "start": 3309860,
-            "end": 3312360,
-            "marked_content": "很多<pinyin>手枪腿</pinyin>的意思",
-            "clean_content": "很多手枪腿的意思",
-            "pinyin": "手枪腿",
-            "text": ""
+            "start": 4052789,
+            "end": 4058520,
+            "marked_content": "哈哈哈哈哎呀<text>老公</text>啊嘞还要再点",
+            "clean_content": "哈哈哈哈哎呀老公啊嘞还要再点",
+            "pinyin": "",
+            "text": "老公"
           }
         ]
       }
