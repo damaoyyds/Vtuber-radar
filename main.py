@@ -61,14 +61,28 @@ def on_search():
                 for sub in subtitles:
                     start_time = format_time(sub.get("start", 0))
                     end_time = format_time(sub.get("end", 0))
+                    clean_content = sub.get("clean_content", "")
                     pinyin = sub.get("pinyin", "")
                     text = sub.get("text", "")
                     
-                    result_text.insert(tk.END, f"    - [{start_time} ~ {end_time}]")
+                    result_text.insert(tk.END, f"    - [{start_time} ~ {end_time}] ")
+                    
+                    temp_content = clean_content
                     if pinyin:
-                        result_text.insert(tk.END, f" pinyin: {pinyin}")
+                        start_idx = temp_content.find(pinyin)
+                        if start_idx != -1:
+                            result_text.insert(tk.END, temp_content[:start_idx])
+                            result_text.insert(tk.END, pinyin, "pinyin_tag")
+                            temp_content = temp_content[start_idx + len(pinyin):]
+                    
                     if text:
-                        result_text.insert(tk.END, f" text: {text}")
+                        start_idx = temp_content.find(text)
+                        if start_idx != -1:
+                            result_text.insert(tk.END, temp_content[:start_idx])
+                            result_text.insert(tk.END, text, "text_tag")
+                            temp_content = temp_content[start_idx + len(text):]
+                    
+                    result_text.insert(tk.END, temp_content)
                     result_text.insert(tk.END, "\n")
             
             result_text.insert(tk.END, "\n")
@@ -116,6 +130,9 @@ if __name__ == "__main__":
 
     result_text = scrolledtext.ScrolledText(frame, width=100, height=35, wrap=tk.WORD)
     result_text.grid(row=2, column=0, columnspan=3, padx=5, pady=10, sticky=tk.W+tk.E+tk.N+tk.S)
+    
+    result_text.tag_configure("pinyin_tag", foreground="red")
+    result_text.tag_configure("text_tag", foreground="blue")
 
     frame.columnconfigure(1, weight=1)
     frame.rowconfigure(2, weight=1)

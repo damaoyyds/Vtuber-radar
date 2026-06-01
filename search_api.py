@@ -52,13 +52,20 @@ def find_matching_subtitles(clip_id, keyword):
             text_match = re.search(r'<text>(.*?)</text>', marked_content)
             
             if pinyin_match or text_match:
+                clean_content = marked_content
+                if pinyin_match:
+                    clean_content = clean_content.replace(f'<pinyin>{pinyin_match.group(1)}</pinyin>', pinyin_match.group(1))
+                if text_match:
+                    clean_content = clean_content.replace(f'<text>{text_match.group(1)}</text>', text_match.group(1))
+                
                 matches.append({
                     "clip_id": clip_id,
                     "start": start,
                     "end": end,
+                    "marked_content": marked_content,
+                    "clean_content": clean_content,
                     "pinyin": pinyin_match.group(1) if pinyin_match else "",
-                    "text": text_match.group(1) if text_match else "",
-                    "marked_content": marked_content
+                    "text": text_match.group(1) if text_match else ""
                 })
     
     return matches
